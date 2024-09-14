@@ -1,0 +1,70 @@
+/* style.css */
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font for playful design */
+    background-color: #ffebcd; /* Light background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border: 2px dashed #ff69b4; /* Dashed border for a playful touch */
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff4500; /* Fun, bright color */
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title::after {
+    content: "🎉"; /* Emoji added to the title */
+    margin-left: 10px;
+}
+
+.despriction {
+    font-size: 20px;
+    color: #333;
+    margin: 20px 0;
+    font-style: italic; /* Italicized text for a whimsical feel */
+}
+
+.action {
+    margin-top: 20px;
+}
+
+.valid {
+    background-color: #32cd32; /* Bright green button */
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.valid:hover {
+    background-color: #228b22; /* Darker green for hover effect */
+}
+
+.valid::before {
+    content: "🤣"; /* Emoji added to the button */
+    margin-right: 10px;
+}
